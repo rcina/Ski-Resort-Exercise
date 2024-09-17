@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(254, 253, 245);
+  font-family: "Inter", sans-serif;
+}
+
+.outer-card {
+  width: 700px;
+  margin: 200px auto;
+  padding: 50px;
+  background-color: #463d36;
+}
+
+.inner-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #a6192e;
+  font-size: 28px;
+}
+
+p {
+  font-size: 28px;
+  margin-bottom: 28px;
+}
+
+.status-text {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #463d36;
+  padding: 30px 40px 30px 40px;
+}
